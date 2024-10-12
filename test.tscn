@@ -1,19 +1,40 @@
-[gd_scene load_steps=2 format=3 uid="uid://bawu3vrbbugji"]
+[gd_scene load_steps=6 format=3 uid="uid://bawu3vrbbugji"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_aah1h"]
+[ext_resource type="Script" path="res://IsometricCamera.gd" id="1_eue2y"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dn41q"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_txbe7"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_mx4ui"]
+
+[sub_resource type="TileSet" id="TileSet_adqle"]
 
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0636158, 0, -0.060153)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.66574, 7.67328, 7.49761)
+material_override = SubResource("StandardMaterial3D_dn41q")
+mesh = SubResource("PlaneMesh_txbe7")
 
-[node name="SpotLight3D" type="SpotLight3D" parent="MeshInstance3D"]
-transform = Transform3D(-0.983562, 7.32811e-09, -0.180571, -0.135014, 0.664031, 0.735415, 0.119904, 0.747705, -0.653115, -1.6069, 3.67047, -4.48945)
-spot_range = 4.97031
-spot_angle = 27.9127
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.642788, -0.383022, 0.663414, 0, 0.866025, 0.5, -0.766044, -0.321394, 0.55667, 10, 11, 10)
+projection = 1
+size = 5.0
+script = ExtResource("1_eue2y")
 
-[node name="Camera3D" type="Camera3D" parent="MeshInstance3D"]
-transform = Transform3D(-0.246843, -0.445062, 0.860807, 0.0153327, 0.886389, 0.462686, -0.968934, 0.127409, -0.211975, 2.53339, 3.5019, -3.02548)
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-0.829542, 0.243432, 0.502595, 0.535324, 0.602918, 0.591539, -0.159024, 0.759757, -0.63046, 8.29078, 10.0915, 4.35772)
+spot_angle = 32.9757
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.702462, 1.55459, -2.3617)
-mesh = SubResource("BoxMesh_aah1h")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9223, 7.63534, 6.63855)
+mesh = SubResource("BoxMesh_mx4ui")
+skeleton = NodePath("../MeshInstance3D")
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(96, 32)
+tile_set = SubResource("TileSet_adqle")
+rendering_quadrant_size = 20
+format = 2
