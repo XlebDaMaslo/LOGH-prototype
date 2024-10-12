@@ -1,0 +1,285 @@
+{
+    "Free Planets Alliance": {
+      "Battleship": {
+        "Abai Geser": {
+            "length": 685,
+            "width": 65,
+            "height": 280
+        },
+        "Alliance battleship (640 UC era)": {
+            "length": 605.6,
+            "width": 62,
+            "height": 155
+        },
+        "Alliance battleship (745 UC era)": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Alliance battleship (788 UC era)": {
+            "length": 624,
+            "width": 65,
+            "height": 136.5
+        },
+        "Belenus": {
+            "length": 624,
+            "width": 65,
+            "height": 136
+        },
+        "Bridget": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Gora-Daileng":{
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Gumeiya":{
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Hard Luck": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Hyperion":{
+            "length": 911,
+            "width": 70,
+            "height": 284
+        },
+        "Lugeilan":{
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Marduk":{
+            "length": 630,
+            "width": 65,
+            "height": 137
+        },
+        "Masasoite":{
+            "length": 950,
+            "width": 70,
+            "height": 275
+        },
+        "Maurya":{
+            "length": 975,
+            "width": 72,
+            "height": 362
+        },
+        "Muffuese":{
+            "length": 627,
+            "width": 89,
+            "height": 145
+        },
+        "Rustam":{
+            "length": 1182,
+            "width": 72,
+            "height": 358
+        },
+        "Santa Isabel":{
+            "length": 605.6,
+            "width": 62,
+            "height": 155
+        },
+        "Shah Abbas":{
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Tlahuixcalpantecuhtli": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Triglav": {
+            "length": 924,
+            "width": 210,
+            "height": 328
+        },
+        "Ulysses":{
+            "length": 624,
+            "width": 65,
+            "height": 136.5
+        },
+        "Vivasvat":{
+            "length": 0,
+            "width": 0,
+            "height": 0
+        }
+      },
+      "Flagship": {
+        "Achilleus": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Airget lamh":{
+            "length": 983,
+            "width": 72,
+            "height": 356
+        },
+        "Ajax":{
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Bang-goo": {
+            "length": 1159,
+            "width": 70,
+            "height": 275
+        },
+        "Cu Chulainn": {
+            "length": 1157,
+            "width": 72,
+            "height": 351
+        },
+        "Diomedes": {
+            "length": 1182,
+            "width": 72,
+            "height": 358
+        },
+        "Epimetheus":{
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Krishna": {
+            "length": 1159,
+            "width": 72,
+            "height": 394
+        },
+        "Leonidas": {
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Leonidas II": {
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Palamedes":{
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Patoroklos":{
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Pergamonn":{
+            "length": 1159,
+            "width": 72,
+            "height": 358
+        },
+        "Perun":{
+            "length": 1156,
+            "width": 72,
+            "height": 358
+        },
+        "Quetzalcoatl":{
+            "length": 1157,
+            "width": 72,
+            "height": 358
+        },
+        "Rio Grande":{
+            "length": 1260,
+            "width": 72,
+            "height": 358
+        },
+        "Shiva": {
+            "length": 1172,
+            "width": 138,
+            "height": 404
+        }
+      },
+      "Carrier": {
+        "Ameretat": {
+            "length": 928,
+            "width": 241,
+            "height": 379
+        },
+        "Alliance carrier (788 UC era)":{
+            "length": 928,
+            "width": 241,
+            "height": 379
+        }
+      },
+      "Construction":{
+        "RK-387":{
+            "length": 487,
+            "width": 300,
+            "height": 312
+        }
+      },
+      "Cruiser": {
+        "Alliance cruiser (745 UC era)": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Alliance cruiser (788 UC era)": {
+            "length": 372,
+            "width": 94.5,
+            "height": 74
+        },
+        "Bremen": {
+            "length": 576,
+            "width": 141,
+            "height": 144
+        },
+        "Dolohoff III": {
+            "length": 372,
+            "width": 94.5,
+            "height": 74.4
+        },
+        "Grand Canal":{
+            "length": 372,
+            "width": 94.5,
+            "height": 74.4 
+        },
+        "Leda II": {
+            "length": 486,
+            "width": 55,
+            "height": 62
+        }
+      },
+      "Destroyer": {
+        "Alliance destroyer (745 UC era)": {
+            "length": 0,
+            "width": 0,
+            "height": 0
+        },
+        "Alliance destroyer (788 UC era)":{
+            "length": 208,
+            "width": 44.5,
+            "height": 47
+        },
+        "Janus": {
+            "length": 0,
+            "width": 0,
+            "height": 0 
+        }
+      },
+      "Strike ship": {
+        "Alliance strike ship (788 UC era)": {
+            "length": 226,
+            "width": 76,
+            "height": 42
+        }
+      },
+      "Transport": {
+        "Alliance transport (788 UC era)": {
+            "length": 2480,
+            "width": 463,
+            "height": 494 
+        }
+      }
+    }
+  }
